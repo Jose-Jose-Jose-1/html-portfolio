@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.title-body{
+  /* background-color: #08e8de; */
+  background: linear-gradient(to right, #000f89, green);
+  padding:40px;
+  width: 100%;
+}
+
+.main-body{
+  /* background-color: #08e8de; */
+  background: linear-gradient(to right, #000f89, green);
+  padding:40px 80px;
+  width: 100%;
+  height: 100%;
+}
+
+.page-title{
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1.5%;
+}
+
+img{
+  width: 30%;
+  height: auto;
+  /* position: absolute; */
+  margin-top: 10px;
+}
+
+.breakdown-title, .img-title{
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.content-section{
+  line-height: 2rem;
+  margin-bottom: 20px;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+.img-title{
+  line-height: 2.5rem;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+/* .portfolio-images{
+  position: relative;
+} */
+

@@ -1,0 +1,125 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html{
+  background: linear-gradient(to right, #000f89, green);
+}
+
+h1{
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h2.logo{
+  font-size: 2rem;
+  text-align: center;
+}
+
+p{
+  color: #fff;
+}
+
+h1 .intro-1{
+  font-weight: 900;
+}
+
+.logo a{
+  color: #fff;
+  text-decoration: none;
+}
+.intro-section{
+  /* background-color: #08e8de; */
+  /* background-image: linear-gradient(to right, #b2ffff, #08e8de, #00ffff, #08e8de, #b2ffff); */
+  filter: contrast(200%), brightness(200%);
+  background: linear-gradient(to right, #000f89, green), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewbox='0 0 1000 1000'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.2'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'%3E%3C/rect%3E%3C/svg%3E");
+  width: 100%;
+  /* height: 92vh; */
+  height: 100%;
+  padding:40px 80px;
+}
+
+.click-for-more{
+  /* background-color: #000f89; */
+  /* background-image: linear-gradient(to right, #0073cf, #000f89); */
+  background-image: linear-gradient(to right, #b2ffff, #00ffff);
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  filter: drop-shadow(5px, 5px orange);
+}
+
+.footer-section{
+  background-color: #000f89;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+span > p{
+  display: inline-block;
+  max-width: 100px;
+}
+
+.flex-container-1{
+  display: flex;
+  justify-content: space-between;
+  /* gap: 40rem; */
+}
+
+.flex-container-2{
+  margin-top: 25vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 40rem; */
+  /* padding: 1rem; */
+}
+
+.flex-item-2{
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media(max-width: 700px)and(min-width:820px){
+  .flex-container-2{
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .flex-item-2{
+    flex-direction: row;
+    width: 30vw;
+    margin-top: 10%;
+  }
+}
+
+@media(max-width: 700px){
+  .flex-container-2{
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .flex-item-2{
+    flex-direction: row;
+    width: 30vw;
+    margin-top: 10%;
+  }
+}
+
+
+.click-for-more:hover{
+  transform: translateY(-4px);
+  background-color: black;
+}
